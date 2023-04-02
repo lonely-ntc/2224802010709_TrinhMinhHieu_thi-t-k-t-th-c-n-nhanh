@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>thực đơn</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">yum-yum 😋</a>
+
+      <nav class="navbar">
+         <a href="home.html">trang chủ</a>
+         <a href="about.html">giới thiệu</a>
+         <a href="menu.html">thực đơn</a>
+         <a href="orders.html">đặt hàng </a>
+         <a href="contact.html">liên hệ</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">TRINH HIEU</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">hồ sơ </a>
+            <a href="#" class="delete-btn">đăng xuất</a>
+         </div>
+         <p class="account"><a href="login.html">đăng nhập</a> or <a href="register.html">đăng ký</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>thực đơn</h3>
+   <p><a href="home.html">trang chủ </a> <span> / thực dơn</span></p>
+</div>
+
+<section class="products">
+
+   <h1 class="title">latest dishes</h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/pizza-1.png" alt="">
+         <a href="category.html" class="cat">thức ăn nhanh</a>
+         <div class="name">pizza hải sản</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>40.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/dish-1.png" alt="">
+         <a href="category.html" class="cat">món trộn</a>
+         <div class="name">mì trộn phô mai</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>25.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/burger-1.png" alt="">
+         <a href="category.html" class="cat">thức ăn nhanh</a>
+         <div class="name">hamburger phô mai</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>30.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/dessert-1.png" alt="">
+         <a href="category.html" class="cat">món tráng miệng</a>
+         <div class="name">sinh tố dâu</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>25.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/drink-1.png" alt="">
+         <a href="category.html" class="cat">thức uống</a>
+         <div class="name">nước cam ép</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>25.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/dish-2.png" alt="">
+         <a href="category.html" class="cat">món trộn</a>
+         <div class="name">mì trộn thập cẩm</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>35.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/burger-2.png" alt="">
+         <a href="category.html" class="cat">thức ăn nhanh</a>
+         <div class="name">hamburger khổng lồ</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>40.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/pizza-2.png" alt="">
+         <a href="category.html" class="cat">thức ăn nhanh</a>
+         <div class="name">pizza Trịnh Hiếu</div>
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>40.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="uploaded_img/dessert-2.png" alt="">
+         <a href="category.html" class="cat">món tráng miệng</a>
+         <div class="name">kem dâu</div  >
+         <div class="flex">
+            <div class="price"><span>VNĐ</span>25.000<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:shaikhanas@gmail.com">trinhhieu428@gmail.com</a>
+         <a href="mailto:anasbhai@gmail.com">trinhhieu0404@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>giờ mở cửa</h3>
+         <p>00:07am to 00:10pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>địa chỉ</h3>
+         <a href="https://www.google.com/maps">Thủ Dầu Một,Bình Dương</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>SĐT liên hệ</h3>
+         <a href="tel:1234567890">0925142531</a>
+         <a href="tel:1112223333">0326554261</a>
+      </div>
+
+   </section>
+
+   <!-- <div class="credit">&copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</div> -->
+
+</footer>
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

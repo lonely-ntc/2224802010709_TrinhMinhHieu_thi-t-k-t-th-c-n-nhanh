@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Thủ tục thanh toán</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">yum-yum 😋</a>
+
+      <nav class="navbar">
+         <a href="home.html">trang chủ</a>
+         <a href="about.html">giới thiệu</a>
+         <a href="menu.html">thực đơn</a>
+         <a href="orders.html">đặt hàng</a>
+         <a href="contact.html">liên hệ</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">Trịnh Hiếu</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">hồ sơ</a>
+            <a href="#" class="delete-btn">đăng xuất</a>
+         </div>
+         <p class="account"><a href="login.html">đăng nhập</a> hoặc <a href="register.html">đăng ký</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>thủ tục thanh toán</h3>
+   <p><a href="home.html">trang chủ </a> <span> / Thủ tục thanh toán</span></p>
+</div>
+
+<section class="checkout">
+
+   <h1 class="title">Tóm tắt theo thứ tự</h1>
+
+   <form action="" method="post">
+      <div class="cart-items">
+         <h3>mặt hàng giỏ hàng</h3>
+         <p><span class="name">pizza hải sản</span><span class="price">40.000 VNĐ</span></p>
+         <p><span class="name">mì trộn thập cẩm</span><span class="price">35.000 VNĐ</span></p>
+         <p><span class="name">kem dâu</span><span class="price">25.000 VNĐ</span></p>
+         <p class="grand-total"><span class="name">Tổng cộng :</span> <span class="price">100.000 VNĐ</span></p>
+         <a href="cart.html" class="btn">Xem giỏ hàng</a>
+      </div>
+      <div class="user-info">
+         <h3>thông tin của bạn</h3>
+         <p><i class="fas fa-user"></i> <span>Nguyễn Chung Hiếu</span></p>
+         <p><i class="fas fa-phone"></i> <span>0768538062</span></p>
+         <p><i class="fas fa-envelope"></i> <span>nguyenchunghieu@gmail.com</span></p>
+         <a href="update_profile.html" class="btn">Cập nhật thông tin</a>
+         <h3>địa chỉ giao hàng</h3>
+         <p class="address"><i class="fas fa-map-marker-alt"></i> <span>trại tâm thần BIÊN HÒA</span></p>
+         <a href="update_address.html" class="btn">cập nhật địa chỉ</a>
+         <select name="method" class="box" required>
+            <option value="" disabled selected>chọn phương thức thanh toán</option>
+            <option value="cash on delivery">thanh toán khi giao hàng</option>
+            <option value="credit card">thẻ tín dụng</option>
+            <option value="paytm">thanh toán</option>
+            <option value="paypal">momo</option>
+         </select>
+      </div>
+      <input type="submit" value="place order" name="order" class="btn order-btn">
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>email liên hệ</h3>
+         <a href="mailto:trinhhieu428@gmail.com">trinhhieu428@gmail.com</a>
+         <a href="mailto:trinhhieu0404@gmail.com">trinhhieu0404@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>giờ mở cửa</h3>
+         <p>00:07am to 00:10pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>địa chỉ</h3>
+         <a href="https://www.google.com/maps">Thủ Dầu Một,Bình Dương</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>SĐT liên hệ</h3>
+         <a href="tel:0925142531">0925142531</a>
+         <a href="tel:0326554261">0326554261</a>
+      </div>
+
+   </section>
+
+   <!-- <div class="credit">&copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</div> -->
+
+</footer>
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
